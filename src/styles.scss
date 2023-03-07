@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  width: 300px;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  height: 2rem;
+  border-radius: 5px;
+}
